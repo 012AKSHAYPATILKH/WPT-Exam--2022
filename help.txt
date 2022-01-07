@@ -1,0 +1,13 @@
+Step 1 : Create React App
+npx create-react-app my-app
+npm install axios
+npm start
+
+Step 2 : Create another folder for Backend
+npm init
+npm install mysql bluebird express nodemon cors
+
+Step 3 : Open package.json inside  "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+add "start":"nodemon src/main.js",
+
+Step 4 : Create user.js & main.js 
